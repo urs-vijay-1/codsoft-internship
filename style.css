@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'spartan',sans-serif;
+}
+.paddingall{
+    margin-left: 100px;
+}
+
+#first-block{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+#first-block .mydetails img{
+    margin: 22PX;
+    margin-left: 100px;
+    width: 200px;
+}
+
+.mydetails h4{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 100px;
+    line-height: 30px;
+}
+.mydetails h3{
+    font-size: 30px;
+    color: #c78d51;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+#first-block .picture img{
+    border-radius: 50%;
+    padding: 180px;
+    width: 350px;
+}
+
+.mydetails #btn-1{
+    color: #c78d51;
+    background-color: transparent;
+    margin-top: 22px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+.mydetails #btn-1:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid #c78d51;
+    transition: 0.3s ease;
+}
+.mydetails #an{
+    margin-top: 40px;
+    padding: 5px;
+}
+.mydetails #an i{
+    color: white;
+}
+
+.mydetails #an i:hover{
+    color: silver;
+}
+
+#second-block{
+    display: flex;
+    width: 100%;
+    min-height: 43vh;
+    background-color: white;
+}
+#second-block .abouthead{
+    width: 50%;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: 15vh;
+    height: 100%;
+}
+#second-block .abouthead span{
+    color: #c78d51;
+}
+#second-block .aboutcontent{
+    line-height: 30px;
+    font-size: 20px;
+    margin-right: 200px;
+    margin-top: 5vh;
+    width: 50%;
+}
+#third-block{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 60vh;
+}
+
+#third-block h2{
+    font-size: 35px;
+    color: #c78d51;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#third-block .skillslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#third-block .skillslist .skill1{
+    margin-left: 100px;
+    border-radius: 7px;
+    padding: 15px;
+    width: 260px;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+
+#third-block .skillslist .skill1 img{
+    width: 100%;
+    height: 230px;
+}
+
+#imageslider{
+    width: 100%;
+    height: 70vh;
+}
+#imageslider h2{
+    color: black;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+     
+}
+#imageslider span{
+    color: #c78d51;
+}
+  /* Slider container */
+  .slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Slide images */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/* Controls (next/prev buttons) */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Dots for navigation */
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active-dot {
+    background-color: #333;
+}
+
+/* Main container */
+.contact-section {
+    background-color: #000;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+
+/* Heading styling */
+.contact-heading {
+    background-color: #000000;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #c78d51; /* Match the light brown color */
+}
+
+/* Contact boxes container */
+.contact-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual contact box styling */
+.contact-box {
+    width: 250px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Phone box styling */
+.phone-box {
+    background-color: #c78d51; /* Light brown color */
+    color: black;
+}
+
+/* Email box styling */
+.email-box {
+    background-color: #ffffff; /* Black color */
+}
+
+/* Icon and text styling */
+.contact-box h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 0.9rem;
+}
+
+/* Icon styling */
+.contact-box .icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .contact-heading {
+        font-size: 2rem;
+    }
+    .contact-box {
+        width: 100%;
+        max-width: 300px;
+    }
+    .contact-section::before {
+        font-size: 100px;
+    }
+}
